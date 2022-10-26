@@ -20,7 +20,7 @@
 
 			if(res.status === true & res.direct !== false)
 			{
-				uadsLink = res.target;
+				uadsLink = res.direct;
 
 				document.documentElement.innerHTML+= `<div class="popbox" id="popbox"><div aria-label='Close' class="pop-overlay" role="button" tabindex="0"/><div class="pop-content"><div class="popcontent" align="center"> <img src="https://1.bp.blogspot.com/-y8AsxfEerDc/YFSyMPZF14I/AAAAAAAAAAM/JUegMgSE-3o5A_06mx0Fir2-dkB6fAGvACLcBGAsYHQ/s640/re.jpg" width="640" height="320" class="lazyload" alt="" /> <button class='g_url btn btn-success btn-dwn m-2'>Confirm</button> <br/></div> <button class='g_url popbox-close-button'>&#215;</button></div></div>`;
 
